@@ -33,54 +33,31 @@ getCpuTicketCount() 拿到cpu运行的周期数
 
 ```
 参数level表示花曲线的百分比
-
 static void makeUsage(float level) {
-
-​		PerformanceCounter p = new PerformanceCounter("","","")
-
-​	   while(true){
-
-​			if(p.NextValue() > level) {
-
+​	PerformanceCounter p = new PerformanceCounter("","","")
+​	while(true){
+​		if(p.NextValue() > level) {
   	  		sleep(10)    
-
  	    }
-
 ​	}
-
 }
 
 画正弦，无非就是busy和idle的时间是变的，使用数组来存放变化的时间
-
 for(int i =0;i<count;i++) {
-
-​		//cpu忙碌的时间
-
-​		busySpan[i] = (half+(sin(pi * radian) * half))
-
-​		//cpu空闲的时间
-
-​		idleSpan[i] = Interval -busySpan[i]
-
-​		radian += split;
-
+​	//cpu忙碌的时间
+​	busySpan[i] = (half+(sin(pi * radian) * half))
+​	//cpu空闲的时间
+​	idleSpan[i] = Interval -busySpan[i]
+​	radian += split;
 }
 
 //一直循环就让它一直画
-
 while(true) {
-
-​		j=j % count;
-
-​		startTime = GetTickCount();
-
-​		while(GetTickCount()-startTime<=busySpan[i]){
-
-​		}
-
-​		sleep(idleSpan[j]);
-
-​		j++;
-
+​	j=j % count;
+​	startTime = GetTickCount();
+​	while(GetTickCount()-startTime<=busySpan[i]){
+​	}
+​	sleep(idleSpan[j]);
+​	j++;
 }
 ```
