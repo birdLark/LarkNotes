@@ -31,57 +31,56 @@ getCpuTicketCount() 拿到cpu运行的周期数
 
 **代码清单**
 
+```
 参数level表示花曲线的百分比
 
-`static void makeUsage(float level) {`
+static void makeUsage(float level) {
 
-​		`PerformanceCounter p = new PerformanceCounter("","","")`
+​		PerformanceCounter p = new PerformanceCounter("","","")
 
-​	   `while(true){`
+​	   while(true){
 
-​			`if(p.NextValue() > level) {`
+​			if(p.NextValue() > level) {
 
-  	  		`sleep(10)`    
+  	  		sleep(10)    
 
- 	    `}`
+ 	    }
 
-​	`}`
+​	}
 
-`}`
+}
 
-画正弦，无非就是busy和idle的时间是变的，我们可以使用数组来存放变化的时间
+画正弦，无非就是busy和idle的时间是变的，使用数组来存放变化的时间
 
-`for(int i =0;i<count;i++) {`
+for(int i =0;i<count;i++) {
 
-​		`//cpu忙碌的时间`
+​		//cpu忙碌的时间
 
-​		`busySpan[i] = (half+(sin(pi * radian) * half))`
+​		busySpan[i] = (half+(sin(pi * radian) * half))
 
-​		`//cpu空闲的时间`
+​		//cpu空闲的时间
 
-​		`idleSpan[i] = Interval -busySpan[i]`
+​		idleSpan[i] = Interval -busySpan[i]
 
-​		`radian += split;`
+​		radian += split;
 
-`}`
+}
 
-`//一直循环就让它一直画`
+//一直循环就让它一直画
 
-`while(true) {`
+while(true) {
 
-​		`j=j % count;`
+​		j=j % count;
 
-​		`startTime = GetTickCount();`
+​		startTime = GetTickCount();
 
-​		`while(GetTickCount()-startTime<=busySpan[i]){`
+​		while(GetTickCount()-startTime<=busySpan[i]){
 
-​		`}`
+​		}
 
-​		`sleep(idleSpan[j]);`
+​		sleep(idleSpan[j]);
 
-​		`j++;`
+​		j++;
 
-`}`
-
-
-
+}
+```
