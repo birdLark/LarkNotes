@@ -32,7 +32,7 @@ getCpuTicketCount() 拿到cpu运行的周期数
 **代码清单**
 
 ```
-参数level表示花曲线的百分比
+1.参数level表示花曲线的百分比
 static void makeUsage(float level) {
 ​	PerformanceCounter p = new PerformanceCounter("","","")
 ​	while(true){
@@ -42,7 +42,7 @@ static void makeUsage(float level) {
 ​	}
 }
 
-画正弦，无非就是busy和idle的时间是变的，使用数组来存放变化的时间
+2.画正弦，无非就是busy和idle的时间是变的，使用数组来存放变化的时间
 for(int i =0;i<count;i++) {
 ​	//cpu忙碌的时间
 ​	busySpan[i] = (half+(sin(pi * radian) * half))
@@ -51,7 +51,6 @@ for(int i =0;i<count;i++) {
 ​	radian += split;
 }
 
-//一直循环就让它一直画
 while(true) {
 ​	j=j % count;
 ​	startTime = GetTickCount();
