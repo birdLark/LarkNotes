@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72bfda46-4063-4cc0-8f05-ffc558b9b828" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TestClassLoader/src/main/java/com/avengers/test/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jvm/src/com/avengers/testloader/HelloLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/Arithmetic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/out/production/Arithmetic/META-INF/Arithmetic.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/out/production/Arithmetic/com/avengers/example/Common.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/out/production/Arithmetic/com/avengers/example/Hanoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/out/production/Arithmetic/com/avengers/example/LowBSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/out/production/Arithmetic/com/avengers/example/NewBSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/out/production/Arithmetic/com/avengers/example/OtherSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/out/production/Arithmetic/com/avengers/example/Search.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/com/avengers/example/Common.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/com/avengers/example/Hanoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/com/avengers/example/LowBSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/com/avengers/example/NewBSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/com/avengers/example/OtherSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../arithmetic/src/com/avengers/example/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/DesignPatterns.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/META-INF/DesignPatterns.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/Adaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/ConcreteAdaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/ConcreteAdaptee1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/ConcreteAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/ConcreteAdapter1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/other/Adaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/other/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/other/ConcreteAdaptee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/other/ConcreteAdaptee1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/other/ConcreteAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/other/Target.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/adapter/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/bridge/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/bridge/GIFImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/bridge/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/bridge/Imagekind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/bridge/JPGImage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/bridge/UnixImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/bridge/WinImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/bridge/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/composite/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/composite/Component.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/composite/Composite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/composite/Leaf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/composite/other/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/composite/other/Component2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/composite/other/Composite2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/composite/other/Leaf2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/composite/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/decorator/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/decorator/Component.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/decorator/ConcreteComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/decorator/ConcreteDecorator1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/decorator/ConcreteDecorator2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/decorator/Decorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/decorator/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/facade/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/facade/Facade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/facade/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/facade/System1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/facade/System2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/facade/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/flyweight/Character.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/flyweight/CharacterA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/flyweight/CharacterB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/flyweight/CharacterFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/flyweight/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/flyweight/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/proxy/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/proxy/ProxySubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/proxy/RealSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/proxy/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/construct/proxy/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/AbstractProductA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/AbstractProductB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/ConcreteFactory1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/ConcreteFactory2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/ProductA1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/ProductA2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/ProductB1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/ProductB2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/Run.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/picture/abstractFactory.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/picture/时序图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/abstractFactory/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/builder/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/builder/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/builder/ConcreteBuilderA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/builder/ConcreteBuilderB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/builder/Director.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/builder/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/builder/builder.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/builder/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/factory/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/factory/Mobile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/factory/MobileFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/factory/Motorola.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/factory/MotorolaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/factory/Nokia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/factory/NokiaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/factory/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/prototype/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/prototype/Prototype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/prototype/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/singleton/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/singleton/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/singleton/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/staticFactory/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/staticFactory/SchoolUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/staticFactory/SimpleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/staticFactory/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/staticFactory/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/create/staticFactory/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Interpreter/And.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Interpreter/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Interpreter/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Interpreter/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Interpreter/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Interpreter/Not.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Interpreter/Or.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Interpreter/Variable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Interpreter/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Mediator/ChatRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Mediator/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Mediator/ConcreteParticipantA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Mediator/ConcreteParticipantB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Mediator/IChatRoom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Mediator/Participant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Mediator/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Memento/Caretaker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Memento/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Memento/Memento.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Memento/Originator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Memento/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Responsibility/ConcreteHandlerA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Responsibility/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/Responsibility/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/command/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/command/ConcreteCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/command/Invoker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/command/Receiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/command/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/iterator/Aggregate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/iterator/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/iterator/ConcreteAggregate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/iterator/ConcreteIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/iterator/MyIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/iterator/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/obervers/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/obervers/ConcreteObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/obervers/ConcreteSubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/obervers/Observer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/obervers/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/obervers/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/state/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/state/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/state/High.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/state/Low.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/state/Medium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/state/Off.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/state/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/state/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/strategy/BubbleSortStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/strategy/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/strategy/Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/strategy/QuickSortStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/strategy/Strategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/strategy/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/template/CustomerDataObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/template/DateObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/template/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/visitor/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/visitor/ConcreteElementA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/visitor/ConcreteVisitor1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/visitor/ConcreteVisitor2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/visitor/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/visitor/ObjectStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/visitor/Visitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/observer/visitor/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/out/production/DesignPatterns/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/Adaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/ConcreteAdaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/ConcreteAdaptee1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/ConcreteAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/ConcreteAdapter1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/other/Adaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/other/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/other/ConcreteAdaptee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/other/ConcreteAdaptee1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/other/ConcreteAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/other/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/adapter/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/bridge/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/bridge/GIFImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/bridge/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/bridge/Imagekind.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/bridge/JPGImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/bridge/UnixImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/bridge/WinImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/bridge/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/composite/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/composite/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/composite/Composite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/composite/Leaf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/composite/other/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/composite/other/Component2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/composite/other/Composite2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/composite/other/Leaf2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/composite/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/decorator/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/decorator/Component.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/decorator/ConcreteComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/decorator/ConcreteDecorator1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/decorator/ConcreteDecorator2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/decorator/Decorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/decorator/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/facade/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/facade/Facade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/facade/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/facade/System1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/facade/System2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/facade/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/flyweight/Character.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/flyweight/CharacterA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/flyweight/CharacterB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/flyweight/CharacterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/flyweight/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/flyweight/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/proxy/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/proxy/ProxySubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/proxy/RealSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/proxy/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/construct/proxy/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/AbstractFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/AbstractProductA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/AbstractProductB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/ConcreteFactory1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/ConcreteFactory2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/ProductA1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/ProductA2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/ProductB1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/ProductB2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/Run.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/picture/abstractFactory.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/picture/时序图.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/abstractFactory/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/builder/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/builder/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/builder/ConcreteBuilderA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/builder/ConcreteBuilderB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/builder/Director.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/builder/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/builder/builder.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/builder/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/factory/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/factory/Mobile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/factory/MobileFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/factory/Motorola.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/factory/MotorolaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/factory/Nokia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/factory/NokiaFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/factory/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/prototype/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/prototype/Prototype.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/prototype/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/singleton/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/singleton/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/singleton/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/staticFactory/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/staticFactory/SchoolUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/staticFactory/SimpleFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/staticFactory/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/staticFactory/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/create/staticFactory/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Interpreter/And.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Interpreter/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Interpreter/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Interpreter/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Interpreter/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Interpreter/Not.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Interpreter/Or.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Interpreter/Variable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Interpreter/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Mediator/ChatRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Mediator/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Mediator/ConcreteParticipantA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Mediator/ConcreteParticipantB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Mediator/IChatRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Mediator/Participant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Mediator/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Memento/Caretaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Memento/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Memento/Memento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Memento/Originator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Memento/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Responsibility/ConcreteHandlerA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Responsibility/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/Responsibility/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/command/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/command/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/command/ConcreteCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/command/Invoker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/command/Receiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/command/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/iterator/Aggregate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/iterator/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/iterator/ConcreteAggregate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/iterator/ConcreteIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/iterator/MyIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/iterator/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/obervers/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/obervers/ConcreteObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/obervers/ConcreteSubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/obervers/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/obervers/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/obervers/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/state/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/state/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/state/High.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/state/Low.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/state/Medium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/state/Off.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/state/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/state/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/strategy/BubbleSortStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/strategy/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/strategy/Context.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/strategy/QuickSortStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/strategy/Strategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/strategy/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/template/CustomerDataObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/template/DateObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/template/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/visitor/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/visitor/ConcreteElementA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/visitor/ConcreteVisitor1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/visitor/ConcreteVisitor2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/visitor/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/visitor/ObjectStructure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/visitor/Visitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/observer/visitor/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designPatterns/src/readme_movie.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-kafka-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-kafka-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-sink-es-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-sink-es-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-sink-es-example/src/main/java/com/avengers/example/SinkES.java" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-sink-es-example/src/main/java/com/avengers/example/SinkES.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-sink-es-example/target/classes/com/avengers/example/SinkES$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-sink-es-example/target/classes/com/avengers/example/SinkES$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-sink-es-example/target/classes/com/avengers/example/SinkES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-source-mongodb-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-source-mongodb-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flink-source-redis-example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../flink-source-redis-example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jarLoader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jarLoader/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jarLoader/src/main/java/com/avengers/example/JarLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jarLoader/src/main/java/com/avengers/example/JarLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jarLoader/target/classes/com/avengers/example/JarLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jarLoader/target/classes/com/avengers/example/JarLoaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jvm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jvm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thread/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../thread/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.0/flink-connector-redis_2.11-1.0.jar!/org/apache/flink/streaming/connectors/redis/common/mapper/RedisMapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/flink-sink-redis.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_data_artisans_flakka_actor_2_11_2_3_custom.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_data_artisans_flakka_remote_2_11_2_3_custom.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_data_artisans_flakka_slf4j_2_11_2_3_custom.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_kryo_kryo_2_24_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_11_3_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scopt_scopt_2_12_3_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_11_0_7_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_2_12_0_7_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_twitter_chill_java_0_7_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_12_2_4_20.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_12_2_4_20.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_12_2_4_20.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_12_2_4_20.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_12_0_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_bean_collections_1_8_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_8_0_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_27_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_bahir_flink_connector_redis_2_11_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_annotations_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_11_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_clients_2_12_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_core_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_hadoop_fs_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_java_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_metrics_core_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_11_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_optimizer_2_12_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_queryable_state_client_java_2_12_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_11_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_runtime_2_12_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_5_0_4_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_asm_6_6_2_1_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_guava_18_0_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_hadoop2_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_jackson_2_7_9_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_shaded_netty_4_1_32_Final_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_11_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_streaming_java_2_12_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_force_shading_1_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sling_org_apache_sling_commons_json_2_0_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_11_1_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_clapper_grizzled_slf4j_2_12_1_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_19_0_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_12_1_0_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_scala_lang_scala_library_2_12_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_15.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_uncommons_maths_uncommons_maths_1_2_2a.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="131" />
+    <option name="y" value="65" />
+    <option name="width" value="1685" />
+    <option name="height" value="933" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flink-sink-es-example" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Scala" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72bfda46-4063-4cc0-8f05-ffc558b9b828" name="Default Changelist" comment="" />
+      <created>1575857721909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575857721909</updated>
+      <workItem from="1575857723078" duration="1132000" />
+      <workItem from="1578381033389" duration="640000" />
+      <workItem from="1589436311534" duration="851000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2623000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20509383" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Sequence" order="13" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="14" />
+      <window_info anchor="bottom" id="Log Analyzer" order="15" />
+      <window_info anchor="bottom" id="SOQL Query" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/avengers/example/SinkRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/bahir/flink-connector-redis_2.11/1.0/flink-connector-redis_2.11-1.0.jar!/org/apache/flink/streaming/connectors/redis/common/mapper/RedisMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>flink-sink-redis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.data-artisans:flakka-actor_2.11:2.3-custom</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

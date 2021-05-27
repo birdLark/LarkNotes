@@ -1,9 +1,51 @@
 # LarkNotes
-### 项目缘由
+ ## 作者寄语：
 
-本人就职于一家上市公司，工作倒不是很忙，由于机缘巧合的情况下内推到腾讯面试，面试的前几天紧张一批，因为笔者算法从来没有复习过，结果铩羽而归，流下没有技术的泪水。事后才知道反省，才知算法的重要性，故开源此仓库，整理算法题目和面经，希望同时天涯的你，能够顺利面试成功，拿取心仪的offer。
+     本站所有的资料，都可进行下载使用，希望学习到知识后，能够帮组那些同样需要你帮助的人，同时如果有好的算法例子
+     Flink例子，ElasticSearch例子，kafka例子，能够实现共享让更多的人更容易去学习使用。
+     
+     赠人玫瑰，手留余香
 
-**[编程之美]()**
+ ##  目前的例子
+
+ ### TODO
+
+    flink-mongodb-writer
+
+ ### ElasticSearch的插件
+
+     目前的ES版本6.6版本
+     1.elasticsearch-plugin-log-example：控制台打印信息
+     2.elasticsearch-plugin-clusterhealth-example:获取集群健康信息
+
+ ### Flink的source&sink
+
+    1.flink-source-redis-example:flink读取redis数据进行打印
+    2.flink-sink-redis-example:flink读取socket数据下沉到redis
+    3.flink-kafka-example:flink读取socket数据下沉到kafka
+    4.flink-kafka-example:flink读取kafka数据进行打印
+    5.flink-sink-es-example:flink读取socket数据下沉到elasticsearch
+    6.flink-source-mongodb-example:flink读取mongodb数据进行打印
+
+ ### LeetCode试题
+
+    1.两数之和
+    2.两数相加
+    
+    leetCode项目中
+
+ ### JAVA的工具类
+
+    1.java-common-tool-example：打印JVM的信息
+    2.jarLoader: 调用JAR包中的类
+    3.designPatterns：23种设计模式
+    4.arithmetic：9种排序的算法
+    5.thread: datax线程代码的抽取
+
+ ### Kafka
+
+ 
+
 
 
 
